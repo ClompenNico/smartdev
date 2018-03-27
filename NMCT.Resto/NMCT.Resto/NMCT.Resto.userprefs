@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{F8552991-3E26-49A4-8785-DD4852463C9D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NMCT.Resto.Core/Services/RestoDataService.cs">
+    <Files>
+      <File FileName="NMCT.Resto.iOS/AppDelegate.cs" Line="16" Column="45" />
+      <File FileName="NMCT.Resto.iOS/Setup.cs" Line="24" Column="14" />
+      <File FileName="NMCT.Resto.iOS/Views/TabInfoView.cs" Line="27" Column="83" />
+      <File FileName="NMCT.Resto.Core/ViewModels/TabInfoViewModel.cs" Line="49" Column="1" />
+      <File FileName="NMCT.Resto.Core/Services/RestoDataService.cs" Line="32" Column="25" />
+      <File FileName="NMCT.Resto.iOS/Main.storyboard" />
+      <File FileName="NMCT.Resto.Core/Models/Restaurant.cs" Line="28" Column="18" />
+      <File FileName="NMCT.Resto.Core/App.cs" Line="23" Column="40" />
+      <File FileName="NMCT.Resto.Core/Services/IRestoDataService.cs" Line="12" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NMCT.Resto.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0113B041-4D1B-46F5-9E4D-3B26F77C387F">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.NMCT.Resto.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

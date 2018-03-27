@@ -1,0 +1,10 @@
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\bin\iPhoneSimulator\Debug\HelloWorld.exe
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\bin\iPhoneSimulator\Debug\HelloWorld.pdb
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\HelloWorld.exe
+C:\Users\nicoc\source\smartdev\HelloWorld\HelloWorld\obj\iPhoneSimulator\Debug\HelloWorld.pdb

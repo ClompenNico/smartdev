@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="407">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="406">
+            <objects>
+                <viewController id="407" sceneMemberID="viewController" customClass="TabInfoView" storyboardIdentifier="TabInfoView" useStoryboardIdentifierAsRestorationIdentifier="YES">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="404"/>
+                        <viewControllerLayoutGuide type="bottom" id="405"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="408">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="607" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="Odette">
+                                <rect key="frame" x="93" y="314" width="301" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.36862745098039218" green="0.42352941176470588" blue="0.58823529411764708" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="807" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="84" width="414" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="810" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="3.6">
+                                <rect key="frame" x="20" y="314" width="57" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="highlightedColor"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.44313725490196076" green="0.55294117647058827" blue="0.10588235294117647" alpha="1"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="811" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="$$$$">
+                                <rect key="frame" x="93" y="349" width="301" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.5725490196078431" green="0.64313725490196083" blue="0.74117647058823533" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="813" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="ADDRESS">
+                                <rect key="frame" x="20" y="399" width="301" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17" weight="heavy"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="815" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text="$$$1 street soutt jajaj ja aj aja aj aj aj a aj ja j aa j aj aj ja ja ja ja" numberOfLines="2">
+                                <rect key="frame" x="20" y="428" width="374" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KUEKEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="819" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="65" y="249" width="284" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="lblName" destination="607" id="name-outlet-607"/>
+                        <outlet property="imgRestaurant" destination="807" id="name-outlet-807"/>
+                        <outlet property="lblCuisines" destination="819" id="name-outlet-819"/>
+                        <outlet property="lblScore" destination="810" id="name-outlet-810"/>
+                        <outlet property="lblPriceRange" destination="811" id="name-outlet-811"/>
+                        <outlet property="lblAddress" destination="815" id="name-outlet-815"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="409" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="-178"/>
+        </scene>
+        <scene sceneID="1206">
+            <objects>
+                <tabBarController id="1207" sceneMemberID="viewController" customClass="RestoTabsView" storyboardIdentifier="RestoTabsView">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="1210">
+                        <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections/>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1211" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="225"/>
+        </scene>
+        <scene sceneID="1217">
+            <objects>
+                <viewController id="1218" sceneMemberID="viewController" customClass="TabReviewView" storyboardIdentifier="TabReviewView">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1215"/>
+                        <viewControllerLayoutGuide type="bottom" id="1216"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1219" customModule="TabReviewView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="TabReviewView" destination="1219" id="name-outlet-1219"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1220" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="159" y="624"/>
+        </scene>
+        <scene sceneID="3345">
+            <objects>
+                <viewController id="3346" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3341"/>
+                        <viewControllerLayoutGuide type="bottom" id="3342"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3347">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="3348"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3349" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1241" y="248"/>
+        </scene>
+        <scene sceneID="3350">
+            <objects>
+                <viewController id="3351" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3343"/>
+                        <viewControllerLayoutGuide type="bottom" id="3344"/>
+                    </layoutGuides>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="3353"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3354" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1241" y="-293"/>
+        </scene>
+        <scene sceneID="3355">
+            <objects>
+                <tabBarController id="3356" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="3359">
+                        <rect key="frame" x="0.0" y="687" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3351" kind="relationship" relationship="viewControllers" id="3357"/>
+                        <segue destination="3346" kind="relationship" relationship="viewControllers" id="3358"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3360" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1781" y="-22"/>
+        </scene>
+    </scenes>
+</document>

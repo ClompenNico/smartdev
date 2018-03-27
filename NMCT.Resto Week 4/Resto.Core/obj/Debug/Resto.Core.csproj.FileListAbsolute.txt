@@ -1,0 +1,65 @@
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\Resto.Core.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\Resto.Core.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Binding.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Core.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Localization.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Platform.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\Newtonsoft.Json.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Binding.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Core.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Localization.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\MvvmCross.Platform.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\bin\Debug\Newtonsoft.Json.xml
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\obj\Debug\Resto.Core.csproj.CoreCompileInputs.cache
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\obj\Debug\Resto.Core.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto\Resto.Core\obj\Debug\Resto.Core.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\Resto.Core.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\Resto.Core.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Binding.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Core.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Localization.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Platform.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\Newtonsoft.Json.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Binding.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Core.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Localization.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Platform.pdb
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\bin\Debug\Newtonsoft.Json.xml
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.csprojResolveAssemblyReference.cache
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.csproj.CoreCompileInputs.cache
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.dll
+E:\bauke\NMCT\Sem4\SmartApp\week03_smart-app-dev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.pdb
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\Resto.Core.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\Resto.Core.pdb
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Binding.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Core.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Localization.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Platform.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Binding.pdb
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Core.pdb
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Localization.pdb
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\MvvmCross.Platform.pdb
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.csprojResolveAssemblyReference.cache
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.csproj.CoreCompileInputs.cache
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.csproj.CopyComplete
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.dll
+C:\Users\nicoc\source\smartdev\Resto_Deel2\Resto.Core\obj\Debug\Resto.Core.pdb
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\Resto.Core.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\Resto.Core.pdb
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Binding.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Core.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Localization.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Platform.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Binding.pdb
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Core.pdb
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Localization.pdb
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\MvvmCross.Platform.pdb
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\obj\Debug\Resto.Core.csprojResolveAssemblyReference.cache
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\obj\Debug\Resto.Core.csproj.CoreCompileInputs.cache
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\obj\Debug\Resto.Core.csproj.CopyComplete
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\obj\Debug\Resto.Core.dll
+C:\Users\nicoc\source\smartdev\NMCT.Resto Week 4\Resto.Core\obj\Debug\Resto.Core.pdb
