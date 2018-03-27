@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Night:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="445" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="16" y="666" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1741" firstAttribute="width" constant="65"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="447" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="16" y="695" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="1745" firstAttribute="width" constant="65"/>
+                                </constraints>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="448" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="182" y="656" width="51" height="31"/>
+                                <connections>
+                                    <action selector="SwitchNight_ValueChanged:" destination="BYZ-38-t0r" id="4170" eventType="valueChanged"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="450" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="262" y="656" width="136" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="UIButton450_TouchUpInside:" destination="BYZ-38-t0r" id="451" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="452" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="182" y="694" width="216" height="31"/>
+                                <connections>
+                                    <action selector="SliderSize_ValueChanged:" destination="BYZ-38-t0r" id="4171" eventType="valueChanged"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" lineBreakMode="middleTruncation" id="6233" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="380" y="24" width="22" height="22"/>
+                                <connections>
+                                    <action selector="ButtonAbout_TouchUpInside:" destination="BYZ-38-t0r" id="6237" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="1739" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="445" secondAttribute="bottom" constant="49"/>
+                            <constraint id="1740" firstItem="445" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16"/>
+                            <constraint id="1743" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="447" secondAttribute="bottom" constant="20"/>
+                            <constraint id="1744" firstItem="447" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16"/>
+                            <constraint id="1747" firstItem="448" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="182"/>
+                            <constraint id="1748" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="448" secondAttribute="bottom" constant="49"/>
+                            <constraint id="2920" firstItem="450" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="2921" firstItem="450" firstAttribute="leading" secondItem="448" secondAttribute="leading" constant="80"/>
+                            <constraint id="2922" firstItem="450" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="123"/>
+                            <constraint id="3635" firstItem="450" firstAttribute="top" secondItem="448" secondAttribute="top"/>
+                            <constraint id="3879" firstItem="8bC-Xf-vdC" firstAttribute="trailingMargin" secondItem="452" secondAttribute="trailing" constant="2"/>
+                            <constraint id="3880" firstItem="452" firstAttribute="leading" secondItem="447" secondAttribute="trailing" constant="103"/>
+                            <constraint id="3881" firstItem="452" firstAttribute="centerY" secondItem="447" secondAttribute="centerY" constant="3"/>
+                            <constraint id="3882" firstItem="450" firstAttribute="centerX" secondItem="448" secondAttribute="centerX" constant="123"/>
+                            <constraint id="6234" firstItem="6233" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="16"/>
+                            <constraint id="6235" firstItem="6233" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="switchNight" destination="448" id="name-outlet-448"/>
+                        <outlet property="buttonStart" destination="450" id="name-outlet-450"/>
+                        <outlet property="sliderSize" destination="452" id="name-outlet-452"/>
+                        <outlet property="buttonAbout" destination="6233" id="name-outlet-6233"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <scene sceneID="5954">
+            <objects>
+                <viewController id="5955" sceneMemberID="viewController" customClass="AboutViewController" storyboardIdentifier="AboutViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5952"/>
+                        <viewControllerLayoutGuide type="bottom" id="5953"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5956">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6223" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="184" y="681" width="46" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="ButtonAbout_TouchUpInside:" destination="5955" id="6229" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="6532" firstAttribute="width" constant="46"/>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Fireworks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6238" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="138" y="106" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="6536" firstAttribute="width" constant="138"/>
+                                </constraints>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="6530" firstItem="5956" firstAttribute="trailing" secondItem="6223" secondAttribute="trailing" constant="184"/>
+                            <constraint id="6531" firstItem="5956" firstAttribute="bottom" secondItem="6223" secondAttribute="bottom" constant="25"/>
+                            <constraint id="6534" firstItem="5956" firstAttribute="trailing" secondItem="6238" secondAttribute="trailing" constant="138"/>
+                            <constraint id="6535" firstItem="6238" firstAttribute="top" secondItem="5956" secondAttribute="top" constant="106"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonAbout" destination="6223" id="name-outlet-6223"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5957" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="480" y="-3"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="xamlogo.png" width="75" height="67"/>
+    </resources>
+</document>
