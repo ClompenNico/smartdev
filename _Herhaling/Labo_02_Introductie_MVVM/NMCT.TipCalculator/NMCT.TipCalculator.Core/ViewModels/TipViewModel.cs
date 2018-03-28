@@ -5,14 +5,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace NMCT.TipCalculator.Core.ViewModels
 {
     public class TipViewModel : MvxViewModel
     {
-        private ICalculationService calculationService;
+        public TipViewModel()
+        {
 
-        public TipViewModel(ICalculationService _calculationService)
+        }
+
+        private ICalculationService _calculationService;
+
+        public TipViewModel(ICalculationService calculationService)
         {
             _calculationService = calculationService;
         }
@@ -62,6 +68,14 @@ namespace NMCT.TipCalculator.Core.ViewModels
                 _tip = value;
                 RaisePropertyChanged(() => Tip);
                 Tip = _calculationService.Calculate(Payed, Procent);
+            }
+        }
+
+        public ICommand AboutScreenCommand
+        {
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<AboutViewModel>());
             }
         }
     }

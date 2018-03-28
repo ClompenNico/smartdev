@@ -8,7 +8,7 @@ namespace NMCT.TipCalculator.Core.Services
 {
     public class CalculationService : ICalculationService
     {
-        public decimal Calculate(decimal payed, decimal procent)
+        public double Calculate(double payed, double procent)
         {
             return (payed * procent) / 100;
         }

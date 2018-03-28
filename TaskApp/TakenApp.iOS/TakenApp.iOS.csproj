@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{DAD63EA5-B691-4A13-9D06-3892B076F1A6}</ProjectGuid>
+    <ProjectGuid>{CAD2138F-8901-40AD-A72A-A20409617839}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NMCT.TipCalculator.iOS</RootNamespace>
+    <RootNamespace>TakenApp.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>NMCT.TipCalculator.iOS</AssemblyName>
+    <AssemblyName>TakenApp.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -59,27 +59,33 @@
     <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Views\AboutView.cs" />
-    <Compile Include="Views\AboutView.designer.cs">
-      <DependentUpon>AboutView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <None Include="GettingStarted.Xamarin" />
+    <Compile Include="Views\TaskOverView.cs" />
+    <Compile Include="Views\TaskOverView.designer.cs">
+      <DependentUpon>TaskOverView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserOverView.cs" />
+    <Compile Include="Views\UserOverView.designer.cs">
+      <DependentUpon>UserOverView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainTabView.cs" />
+    <Compile Include="Views\MainTabView.designer.cs">
+      <DependentUpon>MainTabView.cs</DependentUpon>
+    </Compile>
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />
-    <Compile Include="Views\TipView.designer.cs">
-      <DependentUpon>TipView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\TipView.cs" />
     <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Cirrious.FluentLayouts.Touch, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cirrious.FluentLayout.2.5.0\lib\Xamarin.iOS10\Cirrious.FluentLayouts.Touch.dll</HintPath>
+    </Reference>
     <Reference Include="MvvmCross.Binding, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MvvmCross.Binding.5.7.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
     </Reference>
@@ -110,10 +116,13 @@
     <Content Include="Entitlements.plist" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NMCT.TipCalculator.Core\NMCT.TipCalculator.Core.csproj">
-      <Project>{4dc051ef-0bc8-413b-993e-60c7dba6939b}</Project>
-      <Name>NMCT.TipCalculator.Core</Name>
+    <ProjectReference Include="..\TakenApp.Shared\TakenApp.Shared.csproj">
+      <Project>{6cf810c5-e555-4bee-8e61-56299f83615e}</Project>
+      <Name>TakenApp.Shared</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TableViewSources\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

@@ -2,6 +2,6 @@
 {
     public interface ICalculationService
     {
-        decimal Calculate(decimal payed, decimal procent);
+        double Calculate(double payed, double procent);
     }
 }

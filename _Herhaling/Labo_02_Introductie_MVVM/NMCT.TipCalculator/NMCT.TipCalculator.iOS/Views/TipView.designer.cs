@@ -15,6 +15,10 @@ namespace NMCT.TipCalculator.iOS.Views
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnAboutScreen { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtProcent { get; set; }
 
         [Outlet]
@@ -27,6 +31,11 @@ namespace NMCT.TipCalculator.iOS.Views
 
         void ReleaseDesignerOutlets ()
         {
+            if (btnAboutScreen != null) {
+                btnAboutScreen.Dispose ();
+                btnAboutScreen = null;
+            }
+
             if (txtProcent != null) {
                 txtProcent.Dispose ();
                 txtProcent = null;

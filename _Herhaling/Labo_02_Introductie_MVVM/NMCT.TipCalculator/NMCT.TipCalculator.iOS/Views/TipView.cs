@@ -24,6 +24,7 @@ namespace NMCT.TipCalculator.iOS.Views
             set.Bind(txtToPay).To(vm => vm.Payed);
             set.Bind(txtProcent).To(vm => vm.Procent);
             set.Bind(txtTip).To(vm => vm.Tip);
+            set.Bind(btnAboutScreen).To(vm => vm.AboutScreenCommand);
 
             set.Apply();
         }

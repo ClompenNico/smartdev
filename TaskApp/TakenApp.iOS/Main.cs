@@ -1,7 +1,7 @@
 ﻿using System;
 using UIKit;
 
-namespace WineApp.iOS
+namespace TakenApp.iOS
 {
     public class Application
     {
@@ -18,7 +18,6 @@ namespace WineApp.iOS
             {
                 throw ex;
             }
-            
         }
     }
 }
